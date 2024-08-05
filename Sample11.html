@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Form</title>
+    <style>
+        .form1 {
+            background-color: grey;
+            color: white;
+        }
+
+        .form2 {
+            background-color: grey;
+            color: white;
+        }
+        body{
+            background-color: black;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+    <center><h1>Event Registration Form</h1></center>
+    <center><p>Please fill out the form below to register for the event.</p></center>
+    <form>
+        <fieldset>
+            <legend>Event Registration Form</legend>
+            <div class="form1">
+                <label for="firstname">Name</label>
+                <br>
+                <input type="text" id="firstname" placeholder="First Name" required autofocus>
+                <input type="text" id="firstname" placeholder="Last Name" required>
+                <br>
+                <label for="email address">Email Address</label>
+                <br>
+                <input type="email" id="email address" placeholder="john.doe@example.com" required>
+                <br>
+                <label for="phone number">Phone Number</label>
+                <br>
+                <input type="text" id="phone number" placeholder="+1 (555) 123-4567" required>
+
+                <br>
+                <label for="country">Country</label>
+                <select>
+                    <option value="select">select</option>
+                    <option value="india">INDIA</option>
+                    <option value="pakisthan">PAKISTHAN</option>
+                    <option value="bangladesh">BANGLADESH</option>
+                    <option value="china">CHINA</option>
+                </select>
+                <label for="date of birth">Date of Birth</label>
+                <input type="date" id="date of birth" required>
+                <br>
+                <label for="t shirt size">T - Shirt Size</label>
+                <br>
+                <input type="radio" id="option1" name="size" value="small">
+                <label for="option1">Small</label>
+                <input type="radio" id="option2" name="size" value="medium">
+                <label for="option2">Medium</label>
+                <input type="radio" id="option3" name="group1" value="large">
+                <label for="option3">Large</label>
+                <input type="radio" id="option3" name="group1" value="extra large">
+                <label for="option3">Extra Large</label>
+                <br>
+            </div>
+        </fieldset>
+                <fieldset>
+                    <div class="form2">
+                    <legend>Emergency Contact Information</legend>
+                <h1>Emergency Contact Information</h1>
+                <label for="emergency contact name">Emergency Contact Name</label>
+                <br>
+                <input type="text" id="emergency contact name" placeholder="Jane Smith" required>
+                <br>
+                <label for="emergency contact phone number">Emergency Contact Phone Number</label>
+                <br>
+                <input type="text" id="emergency contact phone number" placeholder="+1 (555) 123-4567" required>
+                <br>
+                <input type="checkbox" id="emergency contact name" name="emergency contact name">
+                <label for="emergency contact number">I agree to the terms and conditions of this event.</label>
+                <br>
+                <input type="submit" value="submit">
+                </div>
+            </fieldset>
+    </form>
+    </div>
+</body>
+
+</html>
